@@ -2,7 +2,7 @@ const mongoose=require("mongoose");
 const express=require("express");
 const Bus=require("./models/Bus.js");
 const Train = require("./models/Train.js");
-const MONGO_URL="mongodb://127.0.0.1:27017/busapp";
+const MONGO_URL=process.env.MONGO_URI || "mongodb://127.0.0.1:27017/busapp";
 
 const app=express();
 
