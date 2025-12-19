@@ -7,7 +7,7 @@ const getTrains=async(from:string,to:string)=>{
     if(!response.ok){
         throw new Error("Failed to fetch trains");
     }
-    const trains=response.json();
+    const trains= await response.json();
     console.log(trains);
     return trains;
 }
