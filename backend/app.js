@@ -60,7 +60,9 @@ app.get("/trains",async(req,res)=>{
   res.json(trains);
   console.log("response sent")
 });
+const PORT = process.env.PORT || 5000;
 
-app.listen(8080,"0.0.0.0",()=>{
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT,"0.0.0.0",()=>{
     console.log("server is running on the port 8080");
 })
