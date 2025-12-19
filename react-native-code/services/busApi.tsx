@@ -1,4 +1,4 @@
-const BASE_URL="http://255.255.255.0:8080";
+const BASE_URL="https://manabhadrachalam.onrender.com";
 
 const getBuses=async(fromCity:string,toCity:string)=>{
     const response=await fetch(`${BASE_URL}/buses?fromCity=${fromCity}&toCity=${toCity}`);

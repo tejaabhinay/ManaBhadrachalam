@@ -29,7 +29,7 @@
       [
         "expo-splash-screen",
         {
-          "image":"./assets/images/image-Photoroom.png",
+          "image": "./assets/images/image-Photoroom.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
@@ -43,6 +43,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "144b495b-0c8f-4544-83f4-f54c5f2f3449"
+      }
     }
   }
 }
