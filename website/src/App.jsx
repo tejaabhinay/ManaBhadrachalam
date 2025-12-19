@@ -22,8 +22,12 @@ function App() {
           </p>
 
           {/* ⬇️ The Main Action */}
-          <a href={apkLink} style={styles.downloadBtn}>
-            Download App (APK) ⬇️
+          <a 
+            href={apkLink} 
+            style={styles.downloadBtn}
+            title="Download Mana Bhadrachalam Android App APK"  // <-- ADD THIS LINE
+          >
+          Download App ⬇️
           </a>
           
           <p style={styles.versionInfo}>
