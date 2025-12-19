@@ -203,7 +203,6 @@ const styles = StyleSheet.create({
         fontWeight: "bold",
     },
 
-    // --- BADGES ---
     badgeContainer: {
         flexDirection: 'row',
         marginBottom: 8,
