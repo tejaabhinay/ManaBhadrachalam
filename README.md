@@ -16,4 +16,5 @@ A comprehensive digital portal dedicated to the tourism and cultural heritage of
 
 > **Key Learning:** This project taught me the importance of SEO and how server-side rendering (SSR) via EJS can significantly improve load times for users on 3G/4G networks.
 >
-> Crafted by a Local Boy 
+ 
+ Crafted by Local Boy ❣️
